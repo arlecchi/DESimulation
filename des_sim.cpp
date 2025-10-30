@@ -3,10 +3,6 @@
 // Example runs:
 // ./des_sim --lambda 0.9 --mu 1.0 --maxServed 20000 --warmup 1000 --reps 10 --seed 12345 --queueCap -1 --term served --outdir .
 // ./des_sim --lambda 0.9 --mu 1.0 --horizonT 20000 --warmup 1000 --reps 10 --seed 12345 --queueCap 50 --term time --outdir .
-
-// des_sim.cpp
-// Compile: g++ -std=c++17 des_sim.cpp -o des_sim
-
 #include <iostream>
 #include <iomanip>
 #include <fstream>
