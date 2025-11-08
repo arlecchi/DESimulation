@@ -317,8 +317,8 @@ public:
 };
 
 /* -------------------------
-   Helper functions: CLI parser, statistics, CSV
-   ------------------------- */
+Helper functions: CLI parser, statistics, CSV
+------------------------- */
 void print_usage(const char* prog) {
     cout << "Usage: " << prog << " [options]\n";
     cout << "Options:\n";
